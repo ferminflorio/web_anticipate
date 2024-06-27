@@ -1251,7 +1251,7 @@ section {
 	color: #d8ae76;
 }
 .navbar-toggle {
-	border-color: #d8ae76;
+	border-color: #468373;
 	-moz-border-radius: 0;
 	-webkit-border-radius: 0;
 	border-radius: 0;
@@ -1440,7 +1440,7 @@ section {
 	line-height: 1;
 	margin-bottom: 0;
 	text-transform: capitalize;
-	padding-bottom: 0;
+	padding-bottom: 10px;
 }
 .heading .heading--divider {
 	position: relative;
@@ -1844,6 +1844,10 @@ section {
 		border-radius: 0;
 		margin-top: 35px;
 	}
+	.navbar-toggle .icon-bar {
+		background-color: #468373;
+	}
+
 	.container > .navbar-header {
 		margin-left: 0;
 		padding-right: 10px;
@@ -1892,7 +1896,7 @@ section {
 		float: left;
 	}
 	.navbar-toggle {
-		border-color: #d8ae76;
+		border-color: #468373;
 		-moz-border-radius: 0;
 		-webkit-border-radius: 0;
 		border-radius: 0;
@@ -1900,7 +1904,7 @@ section {
 		display: block;
 	}
 	.navbar-toggle .icon-bar {
-		background-color: #d8ae76;
+		background-color: #468373;
 	}
 	.navbar-fixed-top .navbar-collapse {
 		overflow: scroll !important;
@@ -1939,7 +1943,7 @@ section {
 		padding-top: 0;
 	}
 	.navbar-toggle .icon-bar {
-		background-color: #d8ae76;
+		background-color: #468373;
 	}
 	.navbar-nav > li:after {
 		display: none;
@@ -1989,11 +1993,13 @@ section {
 .slider .slide--headline {
 	color: #ffffff;
 	font-family: fuenteAnticipate;
-	font-size: 65px;
-	font-weight: 700;
+	font-size: 40px;
+	font-weight: 200;
 	line-height: 70px;
 	margin-bottom: 20px;
 	text-transform: none;
+	margin-right: 150px;
+	margin-left: 150px;
 }
 .slider .slide--bio {
 	color: #ffffff;
@@ -2035,7 +2041,7 @@ section {
 		font-size: 30px;
 		line-height: 1.2;
 		text-align: center;
-		margin-top: 0;
+		margin: 0px 30px 100px 30px;
 	}
 	.slider .slide--bio {
 		font-size: 14px;
@@ -3722,9 +3728,42 @@ ul.comments-list ul.comment-children ul .comment-body .comment {
 .body-boxed .col-content {
 	padding: 90px;
 }
+.md-6 {
+	width: 80%;
+}
+
+.service-text {
+	padding: 15px 0px 15px 0px;
+}
+
+.rrss-logos {
+	margin-bottom: 30px;
+}
+svg {
+	padding-right: 7px;
+}
+.flag_logo {
+	height: 20px;
+}
+.mail {
+	text-transform: none;
+	padding-bottom: 10px;
+}
+.md-4 {
+	width: 80%;
+}
+.service_title {
+	padding-bottom: 20px;
+}
+.img_contact {
+	height: 200px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	margin-bottom: 55px;
+}
 @media (min-width: 992px) {
 	.md-4 {
-		width: 50%;
 		padding-left: 0px;
 	}
 }
