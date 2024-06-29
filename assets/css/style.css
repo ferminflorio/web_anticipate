@@ -3768,6 +3768,9 @@ svg {
 .text-movile {
 	font-size: 214px;
 }
+.foto-about {
+	filter: grayscale(50%);
+}
 @media (min-width: 992px) {
 	.md-4 {
 		padding-left: 0px;
