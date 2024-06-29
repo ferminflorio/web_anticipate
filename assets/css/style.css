@@ -3762,6 +3762,9 @@ svg {
 	padding: 5px;
 	margin-bottom: 55px;
 }
+.service-title {
+	padding-top: 20px;
+}
 @media (min-width: 992px) {
 	.md-4 {
 		padding-left: 0px;
