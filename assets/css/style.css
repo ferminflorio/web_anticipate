@@ -2184,7 +2184,7 @@ section {
 .feature-panel .feature--content p {
 	opacity: 0.6;
 	color: #777777;
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: 400;
 	line-height: 24px;
 	margin-bottom: 0;
@@ -3765,10 +3765,11 @@ svg {
 .service-title {
 	padding-top: 20px;
 }
+.text-movile {
+	font-size: 214px;
+}
 @media (min-width: 992px) {
 	.md-4 {
 		padding-left: 0px;
 	}
 }
-
-/*# sourceMappingURL=style.css.map */
